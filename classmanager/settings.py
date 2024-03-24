@@ -26,9 +26,9 @@ MEDIA_DIR = os.path.join(BASE_DIR,'media')
 SECRET_KEY = '13x8r2se41dawv$7!a-p_h4ni$^i^+r@le7wuadd6gmzb=$ss*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 AUTH_USER_MODEL = 'classroom.User'
 
